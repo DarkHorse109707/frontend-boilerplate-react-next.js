@@ -16,7 +16,6 @@ jobs:
         with:
           build: npm run build:frontend
           start: npm run start
-          wait-on: ${{ steps.fetchApiUrl.outputs.apiUrl }}
       - name: Set result_url env var
         if: always()
         run: echo "result_url=http://mockbin.com/request" >> $GITHUB_ENV
