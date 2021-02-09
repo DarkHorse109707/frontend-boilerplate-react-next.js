@@ -17,7 +17,7 @@
     "build:frontend": "react-scripts build",
     "start:frontend": "react-scripts start",
     "start:backend": "echo start your backend here",
-    "start": "yarn run start:backend & yarn run start:frontend",
+    "start": "npm run start:backend & npm run start:frontend",
     "test": "cypress run"
   },
   "eslintConfig": {
