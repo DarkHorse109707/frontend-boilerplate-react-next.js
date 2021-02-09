@@ -11,13 +11,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v1
-      - name: Fetch apiUrl
-        run: echo ::set-output name=apiUrl::$(jq -r .env.apiUrl cypress.json)/ping
-        id: fetchApiUrl
       - name: Run tests
         uses: cypress-io/github-action@v2
         with:
-          build: npm run build
+          build: npm run build:frontend
           start: npm run start
           wait-on: ${{ steps.fetchApiUrl.outputs.apiUrl }}
       - name: Set result_url env var
