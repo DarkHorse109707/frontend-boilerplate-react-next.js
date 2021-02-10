@@ -10,15 +10,9 @@
     "react-scripts": "4.0.2",
     "web-vitals": "^1.0.1"
   },
-  "devDependencies": {
-    "cypress": "^5.4.0"
-  },
   "scripts": {
-    "build:frontend": "react-scripts build",
-    "start:frontend": "react-scripts start",
-    "start:backend": "echo start your backend here",
-    "start": "npm run start:backend & npm run start:frontend",
-    "test": "cypress run"
+    "build": "react-scripts build",
+    "start": "react-scripts start"
   },
   "eslintConfig": {
     "extends": [
