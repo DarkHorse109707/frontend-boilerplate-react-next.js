@@ -1,12 +1,12 @@
 {
-  "name": "frontend-boilerplate",
-  "version": "0.0.1",
+  "name": "frontend-boilerplate-react",
+  "version": "1.0.0",
   "scripts": {
-    "build": "cd app && npm run build",
-    "start": "cd app && npm run start",
+    "build": "cd app-frontend && npm install && npm run build",
+    "start": "cd app-frontend && npm run start",
     "test": "cypress run"
   },
   "devDependencies": {
-    "cypress": "^5.4.0"
+    "cypress": "^7.4.0"
   }
 }

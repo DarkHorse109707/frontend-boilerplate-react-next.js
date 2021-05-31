@@ -1,6 +1,6 @@
-# Frontend Boilerplate
+# Frontend Boilerplate React
 
-Use it for setting up a take-home interview assignment or a portfolio project.
+A backbone for your coding challenge.
 
 ## Contents
 
@@ -10,9 +10,10 @@ Use it for setting up a take-home interview assignment or a portfolio project.
 
 ## Tech Stack
 
-- React 11
-- create-react-app
-- Cypress
+- React 17
+- NextJS 10
+- TailwindCSS 2
+- Cypress 7
 - GitHub Actions
 
 ---
