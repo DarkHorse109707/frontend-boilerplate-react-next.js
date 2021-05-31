@@ -16,6 +16,16 @@ A backbone for your coding challenge.
 - Cypress 7
 - GitHub Actions
 
+## Getting started
+
+```
+npm run dev # to run for local development
+
+npm run build # to build the app
+
+npm run start # to start the aapp
+```
+
 ---
 
 Made by [DevSkills](https://devskills.co).
