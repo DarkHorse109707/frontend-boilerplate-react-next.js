@@ -23,7 +23,7 @@ npm run dev # to run for local development
 
 npm run build # to build the app
 
-npm run start # to start the aapp
+npm run start # to start the app
 ```
 
 ---
