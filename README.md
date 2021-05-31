@@ -4,7 +4,7 @@ A backbone for your coding challenge.
 
 ## Contents
 
-- [Frontend app](https://github.com/DevSkillsHQ/frontend-boilerplate-react/tree/main/app) - a React app. Extend with your code.
+- [Frontend app](https://github.com/DevSkillsHQ/frontend-boilerplate-react/tree/main/app-frontend) - a React app. Extend with your code.
 - [E2E test suites](https://github.com/DevSkillsHQ/frontend-boilerplate-react/tree/main/cypress/integration) - a frontend Cypress test suite. Extend with your tests.
 - [Pipeline](https://github.com/DevSkillsHQ/frontend-boilerplate-react/blob/main/.github/workflows/tests.yml) - a test Runner that executes the Cypress tests on push to a branch other than `master`/`main`.
 
