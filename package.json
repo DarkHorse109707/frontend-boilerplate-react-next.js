@@ -2,6 +2,7 @@
   "name": "frontend-boilerplate-react",
   "version": "1.0.0",
   "scripts": {
+    "dev": "cd app-frontend && npm run dev",
     "build": "cd app-frontend && npm install && npm run build",
     "start": "cd app-frontend && npm run start",
     "test": "cypress run"
