@@ -2,7 +2,7 @@ const Hero = () => (
   <>
     <h1 className="text-6xl font-bold">
       Frontend Boilerplate React with <br />
-      <a className="text-blue-600" href="https://nextjs.org">
+      <a className="text-indigo-600" href="https://nextjs.org">
         NextJS, TailwindCSS
       </a>
     </h1>
