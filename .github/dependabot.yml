@@ -1,0 +1,9 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/app-frontend"
+    schedule:
+      interval: "daily"
+    labels:
+      - "npm"
+      - "dependencies"

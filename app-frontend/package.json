@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -H localhost",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -H localhost",
     "test": "jest --watch"
   },
   "dependencies": {
