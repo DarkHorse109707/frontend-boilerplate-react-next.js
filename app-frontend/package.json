@@ -17,7 +17,7 @@
     "autoprefixer": "^10.4.17",
     "postcss": "^8.4.12",
     "tailwindcss": "^3.4.1",
-    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/jest-dom": "^6.4.2",
     "@testing-library/react": "^14.2.1",
     "babel-jest": "^29.7.0",
     "identity-obj-proxy": "^3.0.0",
